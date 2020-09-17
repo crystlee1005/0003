@@ -12,6 +12,6 @@ int main(int argc, char *argv[]) {
 	
 	i = c - '0';	
    printf(" The next character of %c (%i) is  %c (%i) \n", c, i, c+1, i+1);
-   
+     
 	return 0;
 }
