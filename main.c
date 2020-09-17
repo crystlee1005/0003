@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	scanf("%c", &c);
 	
 	i = c - '0';	
-   printf(" The next character of %c(%i) is  %c+1(%i)\n", c, i, c+1, c+i);
+   printf(" The next character of %c (%i) is  %c (%i) \n", c, i, c+1, i+1);
    
 	return 0;
 }
