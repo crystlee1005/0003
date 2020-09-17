@@ -4,14 +4,19 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-    char c;
-	int i;
+    int a;
+    int b;
+    float i;
 	
-	printf("enter a character : " );
-	scanf("%c", &c);
+	printf(" 분자를 입력하세요 : " );
+	scanf("%a", &a);
+	printf(" 분모를 입력하세요 : " );
+	scanf("%b", &b);
 	
-	i = c - '0';	
-   printf(" The next character of %c (%i) is  %c (%i) \n", c, c, c+1, c+1);
+	
+	  
+	i = b/a;	
+   printf(" 나누기의 결과는 %i 입니다. \n", i);
      
 	return 0;
 }
